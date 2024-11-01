@@ -14,14 +14,21 @@ pkg/writers/ @trufflesecurity/Scanning
 proto/ @trufflesecurity/Scanning
 
 # critical detectors
-pkg/detectors/aws/ @trufflesecurity/backend
-pkg/detectors/gcp/ @trufflesecurity/backend
-pkg/detectors/azure/ @trufflesecurity/backend
+pkg/detectors/aws/ @trufflesecurity
+backend
+pkg/detectors
+gcp@trufflesecurity
+backend
+pkg/detectors/azure
+@trufflesecurity/backend
 pkg/detectors/okta/ @trufflesecurity/backend
-pkg/detectors/privatekey/ @trufflesecurity/backend
+pkg/detectors/privatekey
+@trufflesecurity/backend
 pkg/detectors/slack/ @trufflesecurity/backend
-pkg/detectors/slackwebhook/ @trufflesecurity/backend
-pkg/detectors/microsoftteamswebhook/ @trufflesecurity/backend
+pkg/detectors/slackwebhook
+@trufflesecurity/backend
+pkg/detectors/microsoftteamswebhook 
+@trufflesecurity/backend
 pkg/detectors/twilio/ @trufflesecurity/backend
 pkg/detectors/sendgrid/ @trufflesecurity/backend
 pkg/detectors/gitlab/ @trufflesecurity/backend
