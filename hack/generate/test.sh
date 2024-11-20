@@ -14,3 +14,4 @@ echo "████████████ Testing generate Detector"
 go run hack/generate/generate.go detector Test
 go test ./pkg/detectors/test -benchmem -bench .
 echo ""
+<set>
