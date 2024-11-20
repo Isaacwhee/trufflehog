@@ -15,3 +15,4 @@ while IFS= read -r FILE; do
         fi
     fi
 done <<< "$CHANGED"
+set
